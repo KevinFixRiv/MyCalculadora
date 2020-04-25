@@ -412,7 +412,7 @@ public class myVista extends JFrame implements ActionListener{
     }
 
     public void exit() {
-        int respuesta = JOptionPane.showConfirmDialog(rootPane, "Exit", "warning", JOptionPane.YES_NO_OPTION);
+        int respuesta = JOptionPane.showConfirmDialog(rootPane, "Exit", "WARNING", JOptionPane.YES_NO_OPTION);
         if (respuesta == JOptionPane.YES_OPTION) {
             System.exit(0);
         }
